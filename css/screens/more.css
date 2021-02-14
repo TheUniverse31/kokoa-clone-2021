@@ -1,0 +1,14 @@
+.alert-circle {
+  border: 1px solid tomato;
+  color: tomato;
+  text-align: center;
+  line-height: 14px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 13px;
+  position: absolute;
+  top: 30px;
+  right: -23px;
+}

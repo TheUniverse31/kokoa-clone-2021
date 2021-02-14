@@ -4,13 +4,12 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
     <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>Sprint</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -31,15 +30,27 @@
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        required
+        minlength="10"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
       <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>
-
-      <script
-        src="https://kit.fontawesome.com/6478f529f2.js"
-        crossorigin="anonymous"
-      ></script>
     </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
