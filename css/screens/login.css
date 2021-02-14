@@ -36,10 +36,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: var(--blue);
+  border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: var(--blue);
+  background-color: var(--yellow);
   color: white;
   cursor: pointer;
   padding: 20px 0px;

@@ -1,0 +1,36 @@
+#icon-row__icon__ID {
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 29px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 0px;
+}
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon i {
+  font-size: 35px;
+}
+.icon-row__icon:nth-child(2) span {
+  text-align: center;
+}
+.icon-row__icon span:last-child {
+  font-weight: 500;
+}
+.icon-row__icon span {
+  margin-top: 20px;
+}
+.icon-row__icon--invisible {
+  opacity: 0%;
+}
