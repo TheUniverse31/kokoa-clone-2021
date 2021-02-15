@@ -15,6 +15,19 @@
 }
 .nav__notification--dot-cog {
   position: absolute;
-  right: 21px;
-  top: 42px;
+  right: 20px;
+  top: 38px;
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 2s linear infinite;
+}
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
