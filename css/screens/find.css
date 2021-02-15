@@ -151,3 +151,12 @@
   will-change: transform;
   animation: heartbeat 1.5s linear infinite;
 }
+.open-post {
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+  margin-bottom: 10px;
+}
+.open-post:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
