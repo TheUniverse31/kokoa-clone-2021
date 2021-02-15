@@ -7,10 +7,20 @@
   justify-content: space-between;
 }
 .settings__setting i {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.6);
   margin-right: 20px;
   font-size: 22px;
 }
 .settings__setting-column:last-child {
   opacity: 0.6;
+}
+.settings__setting:nth-child(3) {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.settings__setting:nth-child(4) {
+  padding-top: 50px;
+}
+.settings__setting:last-child {
+  padding-bottom: 30px;
 }
