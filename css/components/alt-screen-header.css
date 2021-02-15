@@ -28,3 +28,15 @@
 .alt-header__column span:last-child {
   margin-left: 20px;
 }
+.alt-header__column i {
+  transition: all 0.3s linear;
+}
+.alt-header__column i:hover {
+  color: gray;
+}
+.alt-header__column .fa-search {
+  transition: all 0.3s ease-in-out;
+}
+.alt-header__column .fa-search:hover {
+  transform: rotateZ(45deg);
+}

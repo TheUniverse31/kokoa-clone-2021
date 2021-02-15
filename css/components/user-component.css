@@ -1,9 +1,20 @@
 .user-component {
   justify-content: space-between;
+  color: white;
+  background-color: rgba(179, 174, 174, 0.445);
+  border-radius: 28px;
+  padding-right: 25px;
 }
-
+.user-components {
+  background-color: rgba(179, 174, 174, 0.445);
+  border-radius: 28px;
+}
+.user-components .user-component {
+  background: none;
+  border-radius: 28px;
+}
 .user-component__column {
-  margin-bottom: 20px;
+  margin: 10px 10px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -16,9 +27,9 @@
 }
 .user-component__subtitle {
   margin-top: 8px;
-  color: var(--color-gray);
   font-size: 17px;
   font-weight: 600;
+  opacity: 0.7;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -39,7 +50,6 @@
   font-weight: 400;
 }
 .user-component__column:last-child {
-  color: var(--color-gray);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -48,6 +58,7 @@
   color: var(--color-gray);
   margin-bottom: 10px;
   display: block;
+  color: white;
 }
 .user-component__text {
   position: relative;

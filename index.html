@@ -7,6 +7,11 @@
     <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
+    <div class="background-container">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+    </div>
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span>Sprint</span>
@@ -23,9 +28,13 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <i class="fas fa-meteor fa-7x"></i>
+      <h1 class="welcome-header__title">
+        Welcome to<br />
+        Universe Line
+      </h1>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+        If you have an Account, log in with your email or phone number.
       </p>
     </header>
 
@@ -36,16 +45,10 @@
         type="text"
         placeholder="Email or phone number"
       />
-      <input
-        required
-        minlength="10"
-        name="password"
-        type="password"
-        placeholder="Password"
-      />
+      <input required name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <a href="#">Find Account or Password</a>
     </form>
 
     <div id="no-mobile">

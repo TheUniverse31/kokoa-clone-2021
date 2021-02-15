@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: var(--purple);
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -13,7 +13,7 @@
 }
 .nav__a {
   position: relative;
-  color: #2e363e;
+  color: white;
 }
 .nav__notification {
   position: absolute;

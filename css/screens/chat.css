@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: black;
   height: 500vh;
   overflow-x: hidden;
 }
@@ -7,13 +7,14 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  top: 10px;
   z-index: 1;
+  top: 10px;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   top: 0;
-  background-color: #abc1d1;
+  background-color: black;
+  color: white;
 }
 #chat-screen .status-bar {
   z-index: 2;
@@ -38,8 +39,8 @@
   animation: fadeIn 0.5s linear;
 }
 .chat__timestamp {
+  background-color: rgba(255, 255, 255, 0.4);
   color: white;
-  background-color: #92a4b2;
   padding: 10px 15px;
   border-radius: 25px;
   font-size: 15px;
@@ -62,6 +63,7 @@
   display: flex;
   margin-bottom: 25px;
   animation: appearfromleft 0.5s linear;
+  color: white;
 }
 
 .message-row img {
@@ -79,7 +81,7 @@
   align-items: flex-end;
 }
 .message__bubble {
-  background-color: white;
+  background-color: rgb(127, 110, 189);
   padding: 10px 13px;
   border-radius: 13px;
   font-size: 18px;
@@ -108,7 +110,7 @@
   animation: appearfromright 0.5s linear;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--purple);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -142,9 +144,10 @@
 .reply input {
   padding: 10px;
   width: 100%;
-  border: var(--main-border);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  color: black;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -157,7 +160,7 @@
   top: 10px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--purple);
   border: none;
   width: 30px;
   height: 30px;
