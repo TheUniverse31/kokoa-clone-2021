@@ -63,3 +63,6 @@
 .user-component__text {
   position: relative;
 }
+:not(.user-components .user-component) a .user-component {
+  margin-top: 20px;
+}
