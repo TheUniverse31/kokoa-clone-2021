@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .alt-header__column {
   width: 33%;
@@ -32,10 +33,11 @@
   transition: all 0.3s linear;
 }
 .alt-header__column i:hover {
-  color: gray;
+  color: rgb(102, 80, 182);
 }
 .alt-header__column .fa-search {
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .alt-header__column .fa-search:hover {
   transform: rotateZ(45deg);

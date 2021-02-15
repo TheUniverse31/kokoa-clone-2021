@@ -138,8 +138,20 @@
 .reply .reply__column:first-child {
   width: 10%;
 }
+.reply .reply__column:first-child i {
+  cursor: pointer;
+}
 .reply .reply__column:last-child {
   width: 90%;
+}
+.reply .reply__column:last-child i {
+  cursor: pointer;
+}
+.reply .reply__column i:hover {
+  color: var(--purple);
+}
+.reply__column .fa-arrow-up:hover {
+  color: black;
 }
 .reply input {
   padding: 10px;

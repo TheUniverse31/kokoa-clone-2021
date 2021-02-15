@@ -1,26 +1,34 @@
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: all 250ms ease-in-out;
 }
 .settings__setting i {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   margin-right: 20px;
   font-size: 22px;
+  transition: all 250ms ease-in-out;
 }
 .settings__setting-column:last-child {
   opacity: 0.6;
 }
 .settings__setting:nth-child(3) {
   padding-bottom: 50px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 .settings__setting:nth-child(4) {
   padding-top: 50px;
 }
 .settings__setting:last-child {
   padding-bottom: 30px;
+}
+.settings__setting:hover {
+  color: rgb(102, 80, 182);
+}
+.settings__setting:hover i {
+  color: rgb(102, 80, 182);
 }
